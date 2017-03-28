@@ -1,0 +1,99 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header,
+.results,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+img {
+    width: 5%;
+    float: left;
+    margin-right: 2%;
+}
+
+label {
+    font-size: 110%;
+    color: #313131;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.header h3 {
+    color: #0d4a7e;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.jumbotron {
+    background-color: #d0e0ee;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+.results {
+    margin: 40px 0;
+}
+
+.results p + h4 {
+    margin-top: 28px;
+}
+
+.right {
+    float: right;
+    margin-right: 1%;
+}
+
+.well {
+    background-color: #d0e0ee;
+}
+
+.well h3 {
+    color: #0d4a7e;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header,
+    .results,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
